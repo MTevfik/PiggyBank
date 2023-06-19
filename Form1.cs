@@ -1,7 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using PiggyBank.Exceptions;
@@ -236,7 +237,10 @@ namespace PiggyBank
             }
             else if (numberOfBreak == 1)
             {
-                this.BackgroundImage = Image.FromFile(@"C:\Users\Mehmet Tevfik\source\repos\PiggyBank\PiggyBank\Resources\yapistir.png");
+                string fullPath = Environment.CurrentDirectory;
+                string parentPath = Directory.GetParent(fullPath).Parent.FullName;
+                string imagePath = parentPath + "\\Resources\\yapistir.png";
+                this.BackgroundImage = Image.FromFile(imagePath);
                 this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Tile;
                 buttonBreak.Text = "Kır!";
                 cmbCoin.Enabled = true;
@@ -299,7 +303,10 @@ namespace PiggyBank
         public void UpdateData(BindingList<Money> kagitlar, BindingList<Money> bozuklar, double birikmis)
         {
             lblAmount.Text = "Biriken Miktar: " + birikmis.ToString() + "₺";
-            this.BackgroundImage = Image.FromFile(@"C:\Users\Mehmet Tevfik\source\repos\PiggyBank\PiggyBank\Resources\kirik.png");
+            string fullPath = Environment.CurrentDirectory;
+            string parentPath = Directory.GetParent(fullPath).Parent.FullName;
+            string imagePath = parentPath + "\\Resources\\kirik.png";
+            this.BackgroundImage = Image.FromFile(imagePath);
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Tile;
             dgvBanknotes.Visible = true;
             dgvBanknotes.DataSource = null;
@@ -311,7 +318,10 @@ namespace PiggyBank
         public void UpdateData(BindingList<Money> kagitlar, BindingList<Money> bozuklar)
         {
             lblAmount.Text = "Biriken Miktar: ****";
-            this.BackgroundImage = Image.FromFile(@"C:\Users\Mehmet Tevfik\source\repos\PiggyBank\PiggyBank\Resources\piggy-bank-agua.png");
+            string fullPath = Environment.CurrentDirectory;
+            string parentPath = Directory.GetParent(fullPath).Parent.FullName;
+            string imagePath = parentPath + "\\Resources\\piggy-bank-agua.png";
+            this.BackgroundImage = Image.FromFile(imagePath);
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Tile;
             dgvBanknotes.Visible = false;
             dgvBanknotes.DataSource = null;
