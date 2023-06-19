@@ -1,0 +1,10 @@
+C:\Users\Mehmet Tevfik\source\repos\PiggyBank\PiggyBank\bin\Debug\PiggyBank.exe.config
+C:\Users\Mehmet Tevfik\source\repos\PiggyBank\PiggyBank\bin\Debug\PiggyBank.exe
+C:\Users\Mehmet Tevfik\source\repos\PiggyBank\PiggyBank\bin\Debug\PiggyBank.pdb
+C:\Users\Mehmet Tevfik\source\repos\PiggyBank\PiggyBank\obj\Debug\PiggyBank.Form1.resources
+C:\Users\Mehmet Tevfik\source\repos\PiggyBank\PiggyBank\obj\Debug\PiggyBank.Properties.Resources.resources
+C:\Users\Mehmet Tevfik\source\repos\PiggyBank\PiggyBank\obj\Debug\PiggyBank.csproj.GenerateResource.cache
+C:\Users\Mehmet Tevfik\source\repos\PiggyBank\PiggyBank\obj\Debug\PiggyBank.csproj.CoreCompileInputs.cache
+C:\Users\Mehmet Tevfik\source\repos\PiggyBank\PiggyBank\obj\Debug\PiggyBank.exe
+C:\Users\Mehmet Tevfik\source\repos\PiggyBank\PiggyBank\obj\Debug\PiggyBank.pdb
+C:\Users\Mehmet Tevfik\source\repos\PiggyBank\PiggyBank\obj\Debug\PiggyBank.csproj.AssemblyReference.cache

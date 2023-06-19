@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PiggyBank.Exceptions
+{
+    public class NotSelectedMoney : Exception
+    {
+        public NotSelectedMoney() : base("Atmak istediğiniz parayı seçmelisiniz!")
+        {
+
+        }
+    }
+}
